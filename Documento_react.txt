@@ -1,0 +1,51 @@
+npm vite@latest
+
+Repositorio GitHub
+
+Iniciarar Repositorio local:
+'git init'
+
+Cambiar el nombre de master a main:
+'git branch -M main'
+
+Eliminar credenciales de otros usuario:
+win+ s administrador de credenciales y eliminar todas las credenciales que no son tuyas luego de eliminar las credenciales 
+
+Configurar usuario local de Git:
+git config user.email "amaurimedina03@gmail.com"
+git config user.name "Amauri01"
+
+después ponemos 
+ git add .
+
+luego ponemos 
+ git commit -m "y el nombre del proyecto que estés haciendo"
+
+enlazar el repositorio de la nube local:
+ git remote add origin https://github.com/amauri01/Ract_curso.git
+ git push -u origin main
+
+luego saldrá que debe iniciar sesión con el navegador:
+inicie sesión con sus credenciales del git hub
+lis actualiza el repositorio de la nube 
+
+comprobar el estado del proyecto 
+git status
+
+(si aparecen en algo en rojo significa que el archivo es nuevo o se a modificado )
+
+comando para actualizar el repositorio con la versión local 
+git status
+git add .
+git commit-m "nombre de la version o descripción del commit"
+git push 
+
+crear ramas 
+git checkout -b nombre de_la_rama 
+git switch -c nombre_de_la_rama
+git push origen nombre de la rama
+
+CREAR PROYECTO REACT 
+CD DESKTOP 
+CD react_project
+npm create vite@latest
